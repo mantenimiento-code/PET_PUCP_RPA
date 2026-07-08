@@ -1,0 +1,23 @@
+{
+  "Pabellón Z": {
+    "unidad": "31391",
+    "sede": "001",
+    "actividad": "OR1000",
+    "ref_presupuesto": "0000",
+    "lin_accion": "17"
+  },
+  "Edificio Dinthilac": {
+    "unidad": "31392",
+    "sede": "001",
+    "actividad": "OR2000",
+    "ref_presupuesto": "0100",
+    "lin_accion": "18"
+  },
+  "Pabellón A": {
+    "unidad": "31393",
+    "sede": "002",
+    "actividad": "OR3000",
+    "ref_presupuesto": "0000",
+    "lin_accion": "15"
+  }
+}
