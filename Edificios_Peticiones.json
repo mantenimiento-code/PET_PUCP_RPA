@@ -1,22 +1,29 @@
 {
-  "Pabellón Z": {
-    "unidad": "31391",
+  "PAB.Z": {
+    "unidad": "31721",
     "sede": "001",
     "actividad": "OR1000",
     "ref_presupuesto": "0000",
     "lin_accion": "17"
   },
-  "Edificio Dinthilac": {
-    "unidad": "31392",
+  "EDIF.DINTHILAC": {
+    "unidad": "31381",
     "sede": "001",
-    "actividad": "OR2000",
+    "actividad": "OR1000",
     "ref_presupuesto": "0100",
     "lin_accion": "18"
   },
-  "Pabellón A": {
-    "unidad": "31393",
-    "sede": "002",
-    "actividad": "OR3000",
+  "ESC.MUSICA-CHORRILLOS": {
+    "unidad": "42813",
+    "sede": "015",
+    "actividad": "O12000",
+    "ref_presupuesto": "0100",
+    "lin_accion": "18"
+  },  
+  "PAB.AULARIO": {
+    "unidad": "31731",
+    "sede": "001",
+    "actividad": "OR1000",
     "ref_presupuesto": "0000",
     "lin_accion": "15"
   }
