@@ -11,20 +11,20 @@
     "sede": "001",
     "actividad": "OR1000",
     "ref_presupuesto": "0100",
-    "lin_accion": "18"
+    "lin_accion": "17"
   },
   "ESC.MUSICA-CHORRILLOS": {
     "unidad": "42813",
     "sede": "015",
-    "actividad": "O12000",
-    "ref_presupuesto": "0100",
-    "lin_accion": "18"
+    "actividad": "OR1000",
+    "ref_presupuesto": "0000",
+    "lin_accion": "17"
   },  
   "PAB.AULARIO": {
     "unidad": "31731",
     "sede": "001",
     "actividad": "OR1000",
     "ref_presupuesto": "0000",
-    "lin_accion": "15"
+    "lin_accion": "17"
   }
 }
