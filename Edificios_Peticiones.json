@@ -1,30 +1,898 @@
-{
-  "PAB.Z": {
-    "unidad": "31721",
-    "sede": "001",
-    "actividad": "OR1000",
-    "ref_presupuesto": "0000",
-    "lin_accion": "17"
-  },
-  "EDIF.DINTHILAC": {
-    "unidad": "31381",
-    "sede": "001",
-    "actividad": "OR1000",
-    "ref_presupuesto": "0000",
-    "lin_accion": "17"
-  },
-  "ESC.MUSICA-CHORRILLOS": {
-    "unidad": "42813",
-    "sede": "015",
-    "actividad": "OR1000",
-    "ref_presupuesto": "0000",
-    "lin_accion": "17"
-  },  
-  "PAB.AULARIO": {
-    "unidad": "31731",
-    "sede": "001",
-    "actividad": "OR1000",
-    "ref_presupuesto": "0000",
-    "lin_accion": "17"
-  }
+{   
+    "A.MOVILES A - A.MULTIUSO": {
+        "Sede": "001",
+        "CodUnd": "31721",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "A.MOVILES B - A.MULTIUSO": {
+        "Sede": "001",
+        "CodUnd": "31721",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "A.MOVILES C - A.MULTIUSO": {
+        "Sede": "001",
+        "CodUnd": "31721",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "AREAS COMUNES": {
+        "Sede": "001",
+        "CodUnd": "31381",
+        "Actividad": "AG0118",
+        "RefPptal": "0026",
+        "LinAcc": "17"
+    },
+    "ARCHIVO - ESA": {
+        "Sede": "001",
+        "CodUnd": "126",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "ASOC. EGRESADOS": {
+        "Sede": "001",
+        "CodUnd": "129",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "05"
+    },
+    "AUDITORIO DERECHO": {
+        "Sede": "001",
+        "CodUnd": "125",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "AULARIO - INT.AULAS": {
+        "Sede": "001",
+        "CodUnd": "31731",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "BIBL.CENTRAL": {
+        "Sede": "001",
+        "CodUnd": "2131",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "BIBL.CIA - INT.AULAS": {
+        "Sede": "001",
+        "CodUnd": "31731",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "CAFETERIA AULARIO": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "CAFETERIA CHARLOTTE": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "CAFETERIA EE.GG.LL": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "CAFETERIA EL PUESTO": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "CAFETERIA ELECTRONICA": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "CAPU": {
+        "Sede": "001",
+        "CodUnd": "121",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "CEMDUC": {
+        "Sede": "001",
+        "CodUnd": "1283",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "13"
+    },
+    "CIDE": {
+        "Sede": "001",
+        "CodUnd": "53812",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "12"
+    },
+    "CIGA": {
+        "Sede": "001",
+        "CodUnd": "7033",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "07"
+    },
+    "CISE": {
+        "Sede": "001",
+        "CodUnd": "53631",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "COL.POLIDEPORTIVO": {
+        "Sede": "001",
+        "CodUnd": "15162",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "05"
+    },
+    "COM. ADMINISTRACIÓN": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "COM. ARTES ANTIGUO": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "COM. ARTES NUEVO": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "COM. CENTRAL": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "COM. LETRAS": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "CONCES.TINKUY": {
+        "Sede": "001",
+        "CodUnd": "31372",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "DACUL.CORO": {
+        "Sede": "001",
+        "CodUnd": "1282",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "13"
+    },
+    "DGTH - ESA": {
+        "Sede": "001",
+        "CodUnd": "31611",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "DIR. ADMIN. FINZ - DINTHILAC": {
+        "Sede": "001",
+        "CodUnd": "31311",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "DIR. COM. INST. - ESA": {
+        "Sede": "001",
+        "CodUnd": "3151",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "DIR. EDUC. CONTINUA - MCGREGOR C": {
+        "Sede": "001",
+        "CodUnd": "2151",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "DIR. INFORMES Y ADMISIÓN ( DIAD)": {
+        "Sede": "001",
+        "CodUnd": "21611",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "DIR.INFRAESTRUCTURA - ESA": {
+        "Sede": "001",
+        "CodUnd": "3121",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "DPTO CIENCIAS": {
+        "Sede": "001",
+        "CodUnd": "5311",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "DPTO. ECONOMIA": {
+        "Sede": "001",
+        "CodUnd": "5351",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "DPTO. HUMANIDADES": {
+        "Sede": "001",
+        "CodUnd": "5371",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "DPTO.INGENIERIA": {
+        "Sede": "001",
+        "CodUnd": "53811",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "DTI": {
+        "Sede": "001",
+        "CodUnd": "34513",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "EDIF. DAES": {
+        "Sede": "001",
+        "CodUnd": "1511",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "10"
+    },
+    "EDIF. GASTRONOMIA": {
+        "Sede": "001",
+        "CodUnd": "43011",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "03"
+    },
+    "EDIF. TINKUY": {
+        "Sede": "001",
+        "CodUnd": "31373",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "EDIF.DINTHILAC": {
+        "Sede": "001",
+        "CodUnd": "124",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "ESC. POSGRADO - MCGREGOR C": {
+        "Sede": "001",
+        "CodUnd": "410",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "02"
+    },
+    "ESC.GOBIERNO": {
+        "Sede": "001",
+        "CodUnd": "6581",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "02"
+    },
+    "FAC. COMUNICACION": {
+        "Sede": "001",
+        "CodUnd": "421",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "FAC. GEST. Y ALTA DIR": {
+        "Sede": "001",
+        "CodUnd": "427",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "FAC. INGENIERIA": {
+        "Sede": "001",
+        "CodUnd": "4121",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "GRUPO.RURAL": {
+        "Sede": "001",
+        "CodUnd": "53813",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "10"
+    },
+    "ICOBA": {
+        "Sede": "001",
+        "CodUnd": "70511",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "INRAS": {
+        "Sede": "001",
+        "CodUnd": "2351",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "07"
+    },
+    "INST DOCENC UNIVERSITARIA (IDU)": {
+        "Sede": "001",
+        "CodUnd": "23711",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "INST. CALIDAD - MAC GREGOR C": {
+        "Sede": "001",
+        "CodUnd": "6321",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "INST. CORROSIÓN": {
+        "Sede": "001",
+        "CodUnd": "634",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "12"
+    },
+    "INST. ETNOMUSICOLOGIA": {
+        "Sede": "001",
+        "CodUnd": "6551",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "13"
+    },
+    "INTE - A.MOVILES B": {
+        "Sede": "001",
+        "CodUnd": "7031",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "07"
+    },
+    "INTENDENCIA P12 - MCGREGOR C": {
+        "Sede": "001",
+        "CodUnd": "31761",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "LAB. ESTRUCTURAS": {
+        "Sede": "001",
+        "CodUnd": "53822",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "LAB. SUELOS": {
+        "Sede": "001",
+        "CodUnd": "53823",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "LIBRERIA PUCP": {
+        "Sede": "001",
+        "CodUnd": "30221",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "12"
+    },
+    "NUEVO COMPLEJO - INT.AULAS": {
+        "Sede": "001",
+        "CodUnd": "31751",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "OCR": {
+        "Sede": "001",
+        "CodUnd": "1312",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "10"
+    },
+    "OF. CONTABILIDAD - ESA": {
+        "Sede": "001",
+        "CodUnd": "3132",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "OF. CONTRALORIA - ESA": {
+        "Sede": "001",
+        "CodUnd": "1411",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "10"
+    },
+    "OF. LOGISTICA": {
+        "Sede": "001",
+        "CodUnd": "31361",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "OF. MANTENIMIENTO  - ESA": {
+        "Sede": "001",
+        "CodUnd": "31381",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "OF. PRESUPUESTOS - ESA": {
+        "Sede": "001",
+        "CodUnd": "11411",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "OF. SEGURIDAD": {
+        "Sede": "001",
+        "CodUnd": "31391",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "OF. SERV.GEN": {
+        "Sede": "001",
+        "CodUnd": "31371",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "OF. TESORERÍA - ESA": {
+        "Sede": "001",
+        "CodUnd": "3133",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "PAB. E - FAC. EST. GENERALES CIENCIAS": {
+        "Sede": "001",
+        "CodUnd": "420",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "PAB. D - DERECHO": {
+        "Sede": "001",
+        "CodUnd": "4151",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "PAB. D NUEVO - DPTO DERECHO": {
+        "Sede": "001",
+        "CodUnd": "5342",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. G - FAC. CONTABLES": {
+        "Sede": "001",
+        "CodUnd": "41311",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "PAB. H - A.MULTIUSO": {
+        "Sede": "001",
+        "CodUnd": "31721",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "PAB. H - FAC. LETRAS Y CIENCIAS HUMANAS": {
+        "Sede": "001",
+        "CodUnd": "4171",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "PAB. I - FAC. ARTE Y DISEÑO": {
+        "Sede": "001",
+        "CodUnd": "426",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "PAB. J - FAC. SOCIALES": {
+        "Sede": "001",
+        "CodUnd": "4141",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "PAB. K - MECATRONICA": {
+        "Sede": "001",
+        "CodUnd": "53815",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. L - FAC. EST. GENERALES LETRAS": {
+        "Sede": "001",
+        "CodUnd": "418",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "PAB. M - SEC. ING. MINAS": {
+        "Sede": "001",
+        "CodUnd": "53831",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. N - MAC GREGOR": {
+        "Sede": "001",
+        "CodUnd": "31721",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "PAB. N - FARES": {
+        "Sede": "001",
+        "CodUnd": "42811",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. P - CEPREPUC": {
+        "Sede": "001",
+        "CodUnd": "619",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "04"
+    },
+    "PAB. P - FAC.PSICOLOGIA": {
+        "Sede": "001",
+        "CodUnd": "42911",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. Q - SEC. QUIMICA": {
+        "Sede": "001",
+        "CodUnd": "53121",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. R - FAC. EDUCACION": {
+        "Sede": "001",
+        "CodUnd": "41611",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "PAB. T - FAC. ARQUITECTURA Y URB": {
+        "Sede": "001",
+        "CodUnd": "423",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. U  - LAB.ENERGIA": {
+        "Sede": "001",
+        "CodUnd": "53872",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. U  - LAB.MANUFACT": {
+        "Sede": "001",
+        "CodUnd": "53875",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. U  - SEC. ING. MECANICA": {
+        "Sede": "001",
+        "CodUnd": "53871",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. U - LAB.MATERIALES": {
+        "Sede": "001",
+        "CodUnd": "53874",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. V - ELECTRONICA": {
+        "Sede": "001",
+        "CodUnd": "53841",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. V - INFORMATICA": {
+        "Sede": "001",
+        "CodUnd": "53861",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. V - TELECOMUNICACIONES": {
+        "Sede": "001",
+        "CodUnd": "53881",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. W - A.MULTIUSO": {
+        "Sede": "001",
+        "CodUnd": "31721",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "PAB. W - FARES": {
+        "Sede": "001",
+        "CodUnd": "42811",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "PAB. X - FARES": {
+        "Sede": "001",
+        "CodUnd": "42811",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. Y - FAC. ARTE Y DISEÑO": {
+        "Sede": "001",
+        "CodUnd": "426",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "PAB. Z": {
+        "Sede": "001",
+        "CodUnd": "42811",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "PAB. Z - A.MULTIUSO": {
+        "Sede": "001",
+        "CodUnd": "31721",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "PROCEDIMIENTOS DISCIPLINARIOS": {
+        "Sede": "001",
+        "CodUnd": "18121",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "PULSO PUCP": {
+        "Sede": "001",
+        "CodUnd": "6561",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "12"
+    },
+    "SALA CUNA": {
+        "Sede": "001",
+        "CodUnd": "31635",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "SEC. FISICA": {
+        "Sede": "001",
+        "CodUnd": "53141",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "SEC. GENERAL": {
+        "Sede": "001",
+        "CodUnd": "1311",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "SEC. ING. BIOINGENIERIA": {
+        "Sede": "001",
+        "CodUnd": "538A1",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "SEC. ING. CIVIL": {
+        "Sede": "001",
+        "CodUnd": "53821",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "SEC. ING. INDUSTRIAL": {
+        "Sede": "001",
+        "CodUnd": "5385",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "SEC. MATEMATICA": {
+        "Sede": "001",
+        "CodUnd": "53131",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "SERV. DEPORTIVOS": {
+        "Sede": "001",
+        "CodUnd": "15161",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "05"
+    },
+    "SERV.SALUD": {
+        "Sede": "001",
+        "CodUnd": "1515",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "05"
+    },
+    "TAMBO-TUC - FARES": {
+        "Sede": "001",
+        "CodUnd": "42811",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "TEOLOGÍA": {
+        "Sede": "001",
+        "CodUnd": "5391",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "TRIB.HONOR": {
+        "Sede": "001",
+        "CodUnd": "1811",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "CENTRUM": {
+        "Sede": "002",
+        "CodUnd": "64166",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "17"
+    },
+    "IC PUEB LIBRE": {
+        "Sede": "005",
+        "CodUnd": "6015",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "05"
+    },
+    "IDIOMAS CHACARILLA": {
+        "Sede": "007",
+        "CodUnd": "6013",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "04"
+    },
+    "IC CAMACHO": {
+        "Sede": "008",
+        "CodUnd": "6014",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "04"
+    },
+    "CENT. CULTUR": {
+        "Sede": "009",
+        "CodUnd": "6131",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "13"
+    },
+    "INST. RIVA AGÜERO": {
+        "Sede": "010",
+        "CodUnd": "6121",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "13"
+    },
+    "CASA O´HIGGINS": {
+        "Sede": "012",
+        "CodUnd": "6126",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "13"
+    },
+    "IDEH PUCP": {
+        "Sede": "014",
+        "CodUnd": "65411",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
+    "ESC.MUS.CHORR": {
+        "Sede": "015",
+        "CodUnd": "42813",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "01"
+    },
+    "EDIF.CONFUCIO": {
+        "Sede": "017",
+        "CodUnd": "1611",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "13"
+    },
+    "IC. MIRAFLORES": {
+        "Sede": "018",
+        "CodUnd": "6018",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "04"
+    },
+    "OPEN PUCP": {
+        "Sede": "019",
+        "CodUnd": "30212",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "03"
+    },
+    "IC PUEBLO LIBRE - CEPREPUC": {
+        "Sede": "023",
+        "CodUnd": "619",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "04"
+    }
 }
