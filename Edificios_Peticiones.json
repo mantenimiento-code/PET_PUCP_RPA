@@ -391,13 +391,20 @@
         "RefPptal": "0000",
         "LinAcc": "01"
     },
+    "PAB. D FAC. DERECHO": {
+        "Sede": "001",
+        "CodUnd": "4151",
+        "Actividad": "OR1000",
+        "RefPptal": "0000",
+        "LinAcc": "06"
+    },
     "PAB. D NUEVO - DPTO DERECHO": {
         "Sede": "001",
         "CodUnd": "5342",
         "Actividad": "OR1000",
         "RefPptal": "0000",
         "LinAcc": "06"
-    },
+    },    
     "PAB. G - FAC. CONTABLES": {
         "Sede": "001",
         "CodUnd": "41311",
